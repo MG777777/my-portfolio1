@@ -18,3 +18,16 @@ code {
 html {
   scroll-behavior: smooth;
 }
+@media screen and (min-width: 320px) {
+  .res 
+   {
+     height:100%;
+   }
+  .bgr 
+   {
+     width:100%;
+   }
+  .gbt{
+    width:100%;
+   }
+ }

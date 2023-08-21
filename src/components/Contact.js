@@ -25,7 +25,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative" style={{marginLeft:'9rem'}}>
+    <section id="contact" className="relative" style={{marginLeft:'9.2rem',marginRight:'0.2rem'}}>
       <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative border border-gray-200">
           <iframe
@@ -39,7 +39,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d574160.6535481523!2d12.643593246705256!3d55.79644931395657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1692330211742!5m2!1ssv!2sse"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-5 rounded shadow-md">
+          <div className="bg-purple-900 relative flex flex-wrap py-5 rounded shadow-md">
             <div className="lg:w-2/2 px-4">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -53,7 +53,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-white leading-relaxed">
                 magnumhack2013@yahoo.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -71,49 +71,49 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="leading-relaxed mb-5 sm:mx-2">
             If you are interested in my work so please contact me by this form or send an email directly.
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-900">
               Name
             </label>
             <input
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-ehite-800 rounded border border-purple-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-900">
               Email
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white-800 rounded border border-purple-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400">
+              className="leading-7 text-sm text-gray-900">
               Message
             </label>
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white-800 rounded border border-purple-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-purple-900 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded text-lg">
             Submit
           </button>
         </form>
