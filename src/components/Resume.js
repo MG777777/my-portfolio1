@@ -18,7 +18,7 @@ export default function Resume() {
             </div>
             <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col item-center flex justify-center">
              <div class="container mx-auto flex flex-wrap">
-              <div class="lg:w-1/4 md:w-1/2 w-full p-4">
+              <div class="lg:w-1/4 md:w-1/2 w-full p-1">
                 <div class="p-8 rounded-xl border border-gray-200">
                  <h4 class="mb-2 text-lg font-semibold"> CEO - Business developer  </h4>
                   <h4 class="mb-2 text-sm font-semibold text-blue-600"> MAR 2019 - FEB 2023 </h4>
@@ -31,8 +31,8 @@ export default function Resume() {
                         excellent customer service.</p>
                 </div>
               </div>
-              <div class="lg:w-1/4 md:w-1/2 w-full p-4">
-                <div class="p-8 rounded-xl shadow-md">
+              <div class="lg:w-1/4 md:w-1/2 w-full p-1">
+                <div class="p-8 rounded-xl shadow-md border border-gray-200">
                   <h4 class="mb-2 text-lg font-semibold"> System developer  </h4>
                    <h4 class="mb-2 text-sm font-semibold text-blue-600"> NOV 2018 - FEB 2019 </h4>
                     <p class="text-base"> Techno MG, Sweden - Nörrköping<br/>
@@ -44,8 +44,8 @@ export default function Resume() {
                     </p>
                 </div>
               </div>
-                <div class="lg:w-1/4 md:w-1/2 w-full p-4">
-                  <div class="p-8 rounded-xl shadow-md">
+                <div class="lg:w-1/4 md:w-1/2 w-full p-1">
+                  <div class="p-8 rounded-xl shadow-md border border-gray-200">
                    <h4 class="mb-2 text-lg font-semibold"> Web Developer  </h4>
                     <h4 class="mb-2 text-sm font-semibold text-blue-600"> NOV 2016 - OCT 2018 </h4>
                       <p class="text-base"> Move24 AB, Sweden - Norrköping<br/>
@@ -58,8 +58,8 @@ export default function Resume() {
                        </p>
                    </div>
                  </div>
-                   <div class="lg:w-1/4 md:w-1/2 w-full p-4">
-                    <div class="p-8 rounded-xl shadow-lg">
+                   <div class="lg:w-1/4 md:w-1/2 w-full p-1">
+                    <div class="p-8 rounded-xl shadow-lg border border-gray-200">
                       <h4 class="mb-2 text-lg font-semibold"> IT-Support  </h4>
                         <h4 class="mb-2 text-sm font-semibold text-blue-600"> APR 2009 - NOV 2010 </h4>
                           <p class="text-base"> IBM Technologies, Ukraine - Kyiv
@@ -78,15 +78,15 @@ export default function Resume() {
                 </h1>
             </div>
             <div class="container mx-auto flex flex-wrap">
-            <div class="lg:w-1/4 md:w-1/2 w-full p-4">
-                    <div class="p-8 rounded-xl shadow-lg">
+            <div class="lg:w-1/4 md:w-1/2 w-full p-1">
+                    <div class="p-8 rounded-xl shadow-lg border border-gray-200">
                       <h4 class="mb-2 text-lg font-semibold"> Diploma in Computer Engineering  </h4>
                         <h4 class="mb-2 text-sm font-semibold text-blue-600"> Chernovtsy National University, Ukraine 2010 </h4>
                      </div>
                      
             </div> 
-            <div class="lg:w-1/4 md:w-1/2 w-full p-4">
-                    <div class="p-8 rounded-xl shadow-lg">
+            <div class="lg:w-1/4 md:w-1/2 w-full p-1">
+                    <div class="p-8 rounded-xl shadow-lg border border-gray-200">
                       <h4 class="mb-2 text-lg font-semibold"> Master's degree Networksystem, Design and installation  </h4>
                         <h4 class="mb-2 text-sm font-semibold text-blue-600"> Chernovtsy National University, Ukraine 2011 </h4>
                      </div>

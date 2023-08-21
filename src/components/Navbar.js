@@ -4,7 +4,7 @@ export default function Navbar() {
     return(
     <header>
       {/* <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"> */}
-      <nav class="flex flex-col bg-purple-900 w-25 h-screen tex-gray-900  border-purple-900 fixed z-10"> {/*Side menubar*/}
+      <nav class="flex flex-col fixed bg-purple-900 w-25 h-screen md:h-full  md:z-30 tex-gray-900  border-purple-900 z-30"> {/*Side menubar*/}
         <div class="flex flex-wrap mt-8">
           <div class="w-2/3">
             <img

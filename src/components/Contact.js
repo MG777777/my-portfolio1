@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative" style={{marginLeft:'9rem'}}>
       <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative border border-gray-200">
           <iframe
             width="100%"
             height="100%"
@@ -117,6 +117,10 @@ export default function Contact() {
             Submit
           </button>
         </form>
+      </div>
+      <div className="">
+      <hr class="h-px my-8 bg-purple-600 border-0 dark:bg-gray-700"></hr>
+          <h2 className="text-center pb-4 text-gray-800 italic font-semibold font-mono">© 2023 Created by Maged.H</h2>
       </div>
     </section>
   );
