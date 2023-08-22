@@ -5,19 +5,19 @@ export default function Resume() {
             <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 flex justify-center">
               <div class="sm:flex sm:items-center sm:justify-between">
                 <div class="text-center sm:text-left">
-                  <h1 class="sm:text-4xl text-3xl font-medium title-font text-gray-800 mb-4">
+                  <h1 class="sm:text-4xl text-3xl font-medium title-font text-purple-900 mb-4">
                     Resume
                   </h1>
                 </div>
                </div>
             </div>
             <div class="text-center sm:text-left">
-                <h1 class="sm:text-4xl text-3xl font-medium title-font text-gray-800 mb-4 flex justify-center">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font text-purple-900 mb-4 flex justify-center">
                 My Experience
                 </h1>
             </div>
             <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col item-center flex justify-center">
-             <div class="container mx-auto flex flex-wrap">
+             <div class="container mx-auto flex flex-wrap w-auto">
               <div class="lg:w-1/4 md:w-1/2 w-full p-1">
                 <div class="p-8 rounded-xl border border-gray-200">
                  <h4 class="mb-2 text-lg font-semibold"> CEO - Business developer  </h4>
@@ -73,7 +73,7 @@ export default function Resume() {
               </div>   
            </div>
            <div class="text-center sm:text-left">
-                <h1 class="sm:text-4xl text-3xl font-medium title-font text-gray-800 mb-4 flex justify-center">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font text-purple-900 mb-4 flex justify-center">
                 My Education
                 </h1>
             </div>

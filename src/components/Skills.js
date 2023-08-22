@@ -7,8 +7,8 @@ export default function Skills() {
         <section id="skills" style={{marginLeft:'9rem'}}>
          <div className="container px-5 py-10 mx-auto">
             <div className="text-center mb-20">
-             <ChipIcon className="w-10 inline-block mb-4" />
-              <h1 className="sm:text-4xl text-3xl font-medium title-font text-gray-800 mb-4">
+             <ChipIcon className="w-10 inline-block mb-4 text-purple-900" />
+              <h1 className="sm:text-4xl text-3xl font-medium title-font text-purple-900 mb-4">
               My Skills
               </h1>
             </div>

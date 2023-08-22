@@ -25,9 +25,49 @@ html {
    }
   .bgr 
    {
-     width:100%;
+     
+     width:65%;
    }
   .gbt{
-    width:100%;
+     width:100%;
    }
+  .smo{
+     width:100%;
+     padding:0;
+  }
+  .con{
+     width:70%;
+     font-size:7px;
+  }
+ }
+ @media screen and (min-width: 360px){
+  .con{
+    width:80%;
+    font-size:7px;
+    padding-left:3px;
+ }
+}
+ @media screen and (min-width: 412px){
+  .con{
+    width:70%;
+    font-size:8px;
+    padding-left:5px;
+ }
+
+ }
+ @media screen and (min-width: 780px){
+  .con{
+    width:70%;
+    font-size:15px;
+    padding-left:5px;
+ }
+
+ }
+ @media screen and (min-width: 820px){
+  .con{
+    width:75%;
+    font-size:15px;
+    padding-left:5px;
+ }
+
  }

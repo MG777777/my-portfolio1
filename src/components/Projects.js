@@ -4,7 +4,7 @@ import { projects } from "../data.js";
 
 export default function Projects() {
     return(
-        <section id="projects" className="text-white body-font bg-bili bg-no-repeat bg-cover bg-center lg:w-auto md:w-auto sm:w-auto bgr " style={{marginLeft:'9rem'}}>
+        <section id="projects" className="text-white body-font bg-bili bg-no-repeat bg-cover bg-center lg:w-auto md:w-auto sm:w-auto bgr" style={{marginLeft:'9rem'}}>
             
             <div className="container px-5 py-20 mx-auto text-center lg:px-40 sm:mx-auto">
                 <div className="flex flex-col w-f mb-20">

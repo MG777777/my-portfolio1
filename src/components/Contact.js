@@ -26,6 +26,15 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative" style={{marginLeft:'9.2rem',marginRight:'0.2rem'}}>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 flex justify-center">
+              <div class="sm:flex sm:items-center sm:justify-between">
+                <div class="text-center sm:text-left">
+                  <h1 class="sm:text-4xl text-3xl font-medium title-font text-purple-900 mb-4">
+                    Contact me
+                  </h1>
+                </div>
+               </div>
+            </div>
       <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative border border-gray-200">
           <iframe
@@ -36,11 +45,11 @@ export default function Contact() {
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
+            style={{ filter: "opacity(0.8)" }}
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d574160.6535481523!2d12.643593246705256!3d55.79644931395657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1692330211742!5m2!1ssv!2sse"
           />
-          <div className="bg-purple-900 relative flex flex-wrap py-5 rounded shadow-md">
-            <div className="lg:w-2/2 px-4">
+          <div className="bg-purple-900 relative flex flex-wrap py-5 rounded shadow-md con">
+            <div className="lg:w-2/2 md:w-1/2 sm:w-1/2 px-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
@@ -53,7 +62,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-white leading-relaxed">
+              <a className="text-white leading-relaxed sm-text-4x1">
                 magnumhack2013@yahoo.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">

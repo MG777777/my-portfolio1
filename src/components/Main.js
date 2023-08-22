@@ -32,7 +32,7 @@ export default function Main() {
                    />
                     <br/><br/><br/>
                     <div className="flex justify-center">
-                        <a href="#contact" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                        <a href="#contact" className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded text-lg">
                             Hire me
                         </a>
                     </div>
