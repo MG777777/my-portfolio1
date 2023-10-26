@@ -42,6 +42,7 @@ export const skills = [
   "Html-CSS",
   "Python",
   "SQL",
+  "PostgreSQL",
   "DevOps",
   "Azure",
   "AWS",
