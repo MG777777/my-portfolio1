@@ -36,12 +36,15 @@ export const projects = [
 
 export const skills = [
   "C#",
+  "MVC ASP.NET",
   "JavaScript",
   "React",
   "Html-CSS",
   "Python",
   "SQL",
   "DevOps",
+  "Azure",
+  "AWS",
   "TCP/IP programming",
   "Cloud Services",
   "Cyber Security",

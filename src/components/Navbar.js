@@ -3,7 +3,8 @@ import React from "react";
 export default function Navbar() {   
     return(
     <header>
-      {/* <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"> */}
+      {
+      /* <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"> */}
       <nav class="flex flex-col fixed bg-purple-900 w-25 h-screen md:h-full  md:z-30 tex-gray-900  border-purple-900 z-30 res"> {/*Side menubar*/}
         <div class="flex flex-wrap mt-8">
           <div class="w-2/3">
