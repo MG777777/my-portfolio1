@@ -46,7 +46,7 @@ export const skills = [
   "DevOps",
   "Azure",
   "AWS",
-  "TCP/IP programming",
   "Cloud Services",
+  "TCP/IP programming",
   "Cyber Security",
 ];
