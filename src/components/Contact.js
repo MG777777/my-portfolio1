@@ -63,7 +63,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-white leading-relaxed sm-text-4x1">
-                magnumhack2013@yahoo.com
+                maged.hikal@yahoo.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE

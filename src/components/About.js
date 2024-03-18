@@ -20,11 +20,11 @@ export default function About() {
                </div>
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                 <dt class="font-medium text-gray-900">E-mail</dt>
-                <dd class="text-gray-700 sm:col-span-2">magnumhack2013@yahoo.com</dd>
+                <dd class="text-gray-700 sm:col-span-2">maged.hikal@yahoo.com</dd>
                </div>
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                <dt class="font-medium text-gray-900">Occuputation</dt>
-               <dd class="text-gray-700 sm:col-span-2">Computer and network system engineer</dd>
+               <dd class="text-gray-700 sm:col-span-2">Computer and Network System Engineer</dd>
                </div>
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                <dt class="font-medium text-gray-900">From</dt>
@@ -36,7 +36,7 @@ export default function About() {
                </div>
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                <dt class="font-medium text-gray-900">What i do</dt>
-               <dd class="text-gray-700 sm:col-span-2"> Develop and build Apps or Systems according to customer requirements </dd>
+               <dd class="text-gray-700 sm:col-span-2"> Develop and construct apps or systems in accordance with customer requirements.<br /> Build a professional web API with secure authentication, scalable architecture, and thorough documentation, ensuring optimal performance and usability for developers and end-users.<br />Network systems design, installation, and programming.<br />Cybersecurity (Defense and protection against attacks).</dd>
                </div>
                </dl>
             </div>

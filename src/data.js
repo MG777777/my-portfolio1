@@ -1,35 +1,51 @@
 export const projects = [
   {
-    title: "C#",
+    title: "C# Console App",
     subtitle: "Product List",
     description:
-      "Project was created with C#, the idea was to create a product list with sort and rihgt entered products name, allow user to enter and exit with very simple interface",
+      "Click to open on Github",
     
     link: "https://github.com/MG777777/CH2_Productlist",
   },
   {
-    title: "C#",
+    title: "C# Console App",
     subtitle: "Assets Tracking System",
     description: 
-      "Project was created with C#, the idea was to create a system that would allow the user to enter the assets along with the price, date of purchase, offices and country of the currency dependent office and sort all the assets for the result",
+      "Click to open on Github",
     image: "./project-2.gif",
     link: "https://github.com/MG777777/Assets_Tracking_System",
   },
   {
     title: "Html css bootstrap javascript php",
-    subtitle: "Munamii Cakery Web Application",
+    subtitle: "Cakery Web Application",
     description:
-      "Project was created with Html css javascript Bootstrap, the idea was to create a e-commerce website with products, shop, subscribe, contact from. ",
+      "Click to open on Github",
     image: "./project-3.gif",
     link: "https://mg777777.github.io/Munamii_cakekery",
   },
   {
-    title: "React + Tailswind",
+    title: "React, JavaScript, Tailswind",
     subtitle: "React Web Application",
     description:
-      "Project was created with react and tailswind, the idea was to create portfolio web application ",
+      "Click to open on Github",
     image: "./project-4.gif",
     link: "",
+  },
+  {
+    title: "C# Console APP",
+    subtitle: "Money Tracking",
+    description:
+      "Click to open on Github",
+    image: "./project-5.gif",
+    link: "https://github.com/MG777777/MoneyTracking_App",
+  },
+  {
+    title: "Web Application",
+    subtitle: "Movie Time",
+    description: "C#, MVC, Sql, Javascript",
+    when: "Comming soon",
+    image: "./project-6.gif",
+    link: "https://github.com/MG777777/",
   },
 ];
 
@@ -38,6 +54,8 @@ export const skills = [
   "C#",
   "MVC ASP.NET",
   "JavaScript",
+  "TScript",
+  "Web API",
   "React",
   "Html-CSS",
   "Python",

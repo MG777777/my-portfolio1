@@ -2,9 +2,10 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data.js";
 
+
 export default function Projects() {
     return(
-        <section id="projects" className="text-white body-font bg-bili bg-no-repeat bg-cover bg-center lg:w-auto md:w-auto sm:w-auto bgr" style={{marginLeft:'9rem'}}>
+        <section id="projects" className="text-white body-font bg-bili bg-no-repeat bg-cover bg-center lg:w-auto md:w-auto sm:w-auto bgr" style={{marginLeft:'5rem'}}>
             
             <div className="container px-5 py-20 mx-auto text-center lg:px-40 sm:mx-auto">
                 <div className="flex flex-col w-f mb-20">
@@ -17,10 +18,10 @@ export default function Projects() {
                     <div class="container mx-auto flex flex-wrap">
                     {projects.map((project) => (
                         <a href={project.link}
-                            key={project.image} className="lg:w-1/4 md:w-1/2 w-full p-1">
+                            key={project.image} className="lg:w-1/4 md:w-1/2 p-1">
                             <div className="flex relative">
                                 {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={project.image} /> */}
-                                <div className="p-8 rounded-xl border border-gray-200 bg-purple-900 ">
+                                <div className="p-8 rounded-xl border border-gray-200 bg-purple-900 h-64">
                                 <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
                                     {project.subtitle}
                                 </h2>
@@ -28,6 +29,7 @@ export default function Projects() {
                                     {project.title}
                                 </h1>
                                 <p className="leading-relaxed">{project.description}</p>
+                                <p className="leading-relaxed">{project.when}</p>
                                 </div>
                             </div>
                         </a>
