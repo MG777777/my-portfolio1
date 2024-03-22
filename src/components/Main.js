@@ -24,8 +24,8 @@ export default function Main() {
                     startDelay={12000}
                     cursorColor="black"
                     multiText={[
-                     'I can help you to build or develop your App or System such as CMS and e-commerce system.',
-                     'I can help you to build or Rebuild and maintenance your Network company system.',
+                     'I can assist you in building or developing your app or system, including CMS and e-commerce systems.',
+                     'Additionally, I can aid in building, rebuilding, and maintaining your network company system.',
                       ]}
                     multiTextDelay={1000}
                     typeSpeed={100}

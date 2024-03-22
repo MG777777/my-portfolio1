@@ -20,7 +20,7 @@ export default function Resume() {
             <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col item-center flex justify-center">
              <div class="container mx-auto my-auto flex flex-wrap w-auto">
              <div class="lg:w-1/4 md:w-1/2 w-full p-1">
-                <div class="p-8 rounded-xl border border-gray-200">
+                <div class="p-8 rounded-xl shadow-md border border-gray-200">
                  <h4 class="mb-2 text-lg font-semibold"> Fullstack Developer</h4>
                   <h4 class="mb-2 text-sm font-semibold text-blue-600"> Dec 2023 - FEB 2024 </h4>
                   <ReadmoreComponent
@@ -38,7 +38,7 @@ export default function Resume() {
                 </div>
               </div>
               <div class="lg:w-1/4 md:w-1/2 w-full p-1">
-                <div class="p-8 rounded-xl border border-gray-200">
+                <div class="p-8 rounded-xl shadow-md border border-gray-200">
                  <h4 class="mb-2 text-lg font-semibold"> CEO - Business developer  </h4>
                   <h4 class="mb-2 text-sm font-semibold text-blue-600"> MAR 2019 - FEB 2023 </h4>
                   <ReadmoreComponent

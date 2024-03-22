@@ -4,26 +4,26 @@ import controlLogo from '../images/control.png';
 import { useState } from "react";
 
 export default function Navbar() { 
-  const [open, setOpen] = useState(false)  
+  const [open, setOpen] = useState(false) 
     return(
     <header>
       {
       /* <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"> */}
-      <nav class="flex flex-col fixed bg-purple-900 w-25 h-screen md:h-full  md:z-30 tex-gray-900  border-purple-900 z-30 res"> {/*Side menubar*/}
+      <nav class="flex flex-col fixed bg-purple-900 w-25 h-screen md:h-full md:z-30 tex-gray-900  border-purple-900 z-30 res"> 
         <div className={` ${
-          open ? "w-25" : "w-20 "
-        } bg-dark-purple h-screen p-5  pt-8 relative duration-300`}
+          open ? "w-25" : "w-20"
+        } bg-dark-purple h-screen p-5 pt-8 relative duration-300`}
       >
         <img
           src={controlLogo}
           className={`absolute cursor-pointer -right-3 top-9 w-7 border-purple-900
-           border-2 rounded-full  ${!open && "rotate-180"}`}
+           border-2 rounded-full ${!open && "rotate-180"}`}
           onClick={() => setOpen(!open)}
         />
         <div class="flex flex-wrap">
           <div className="flex gap-x-4 items-center">
-            <img src={myPhoto} className={`cursor-pointer duration-500 w-20 h-25  ${
-              open && "rotate-[360deg]"
+            <img src={myPhoto} className={`borderfoto borderfoto-1 cursor-pointer duration-500 w-10 h-10 rounded-full ${
+              open  && 'rotate-[360deg] rounded-full w-20 h-20'
             }`}/>           
           </div>
         </div>
