@@ -34,3 +34,5 @@ In this section I have included a google map of the address and contact form.
 ### Resume component 
 
 I wrote a short from CV, but i want to update it and include button to download the original CV.
+
+Created by Maged Hikal
