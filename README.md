@@ -1,3 +1,9 @@
+## Keywords
+React Portfolio, React JS Portfolio Website, Tailwind CSS Portfolio, 
+Frontend Developer Portfolio, React Tailwind Project, 
+Responsive Portfolio Template, JavaScript Portfolio Project, 
+Developer Portfolio Website, React UI Components, Tailwind UI Design
+
 # PORTFILIO WEB APPLICATION WITH REACT JS AND TAILSWIND
 
 This project was created by React and Tailswind .
@@ -19,6 +25,7 @@ relative.
 ### Main component
 
 I have used Typewriting effect by tailwind its look like nice actually.
+
 
 ### Contact component 
 
